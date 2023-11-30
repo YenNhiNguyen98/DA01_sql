@@ -50,4 +50,5 @@ group by user_id
 order by user_id
 ---Ex12
 select class from Courses
+group by class
 having count(student)>=5
